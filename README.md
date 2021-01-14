@@ -1,2 +1,2 @@
-# drag-n-drop-puzzles
-Drag'n'Drop Christmas Puzzles
+# Vanilla JS Drag'n'Drop Christmas Puzzles
+
