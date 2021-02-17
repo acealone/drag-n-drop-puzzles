@@ -8,7 +8,7 @@ Simple drag-and-drop puzzle game using HTML Drag and Drop API
 
 ### Technologies used: 
 
-* HTML Drag and Drop API
-* Custom CSS
-* Vanilla JS
+* HTML (Drag and Drop API)
+* CSS
+* JavaScript
 
