@@ -1,6 +1,6 @@
 # Drag'n'Drop Christmas Puzzles
 
-Simple drag-and-drop puzzle game using HTML Drag and Drop API
+Exploring Drag and Drop API.. Simple drag-and-drop puzzle game.
 
 [Live Demo](https://hzndr.github.io/drag-n-drop-puzzles) / [Codepen](https://codepen.io/hzndr/pen/BaLZZeB)
 
