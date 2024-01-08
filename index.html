@@ -1,111 +1,220 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<html lang="de">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap"
+            rel="stylesheet"
     />
-  </head>
-  <body>
-    <h1>Christmas Puzzles <span>Drag'n'Drop</span></h1>
+</head>
+<body>
+<h1>Puzzle that RAM <span>Drag'n'Drop</span></h1>
+<img
+        src="./img/image.png"
+        width="1024"
+        height="240"
+        alt="Piece of the puzzle"
+        style="position: relative;
+        border: red 4px solid;
+        margin: 3rem 0;"
+/>
+<!--<div class="container">-->
+<!--    <div class="empty" id="first">-->
+<!--        <div class="puzzle" draggable="true">-->
+<!--            <img-->
+<!--                    src="./puzzles/11.png"-->
+<!--                    width="341"-->
+<!--                    height="80"-->
+<!--                    alt="Piece of the puzzle"-->
+<!--                    class="first"-->
+<!--            />-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="empty" id="second">-->
+<!--        <div class="puzzle" draggable="true">-->
+<!--            <img-->
+<!--                    src="./puzzles/21.png"-->
+<!--                    width="341"-->
+<!--                    height="80"-->
+<!--                    alt="Piece of the puzzle"-->
+<!--                    class="second"-->
+<!--            />-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="empty" id="third"></div>-->
+<!--    <div class="empty" id="fourth">-->
+<!--        <div class="puzzle" draggable="true">-->
+<!--            <img-->
+<!--                    src="./puzzles/01.png"-->
+<!--                    width="341"-->
+<!--                    height="80"-->
+<!--                    alt="Piece of the puzzle"-->
+<!--                    class="fourth"-->
+<!--            />-->
+<!--        </div>-->
+<!--    </div>-->
 
-    <div class="container">
-      <div class="empty">
-        <div class="puzzle" draggable="true">
-          <img
-            src="./puzzles/puzzle_eighth.svg"
-            width="79"
-            height="95"
-            alt="Piece of the puzzle"
-            class="eighth"
-          />
-        </div>
-      </div>
-      <div class="empty">
-        <div class="puzzle" draggable="true">
-          <img
-            src="./puzzles/puzzle_third.svg"
-            width="45"
-            height="137"
-            alt="Piece of the puzzle"
-            class="third"
-          />
-        </div>
-      </div>
-      <div class="empty"></div>
-      <div class="empty">
-        <div class="puzzle" draggable="true">
-          <img
-            src="./puzzles/puzzle_fifth.svg"
-            width="43"
-            height="135"
-            alt="Piece of the puzzle"
-            class="fifth"
-          />
-        </div>
-      </div>
+<!--    <div class="empty" id="fifth">-->
+<!--        <div class="puzzle" draggable="true">-->
+<!--            <img-->
+<!--                    src="./puzzles/22.png"-->
+<!--                    width="341"-->
+<!--                    height="80"-->
+<!--                    alt="Piece of the puzzle"-->
+<!--                    class="fifth"-->
+<!--            />-->
+<!--        </div>-->
+<!--    </div>-->
 
-      <div class="empty">
-        <div class="puzzle" draggable="true">
-          <img
-            src="./puzzles/puzzle_first.svg"
-            width="133"
-            height="123"
-            alt="Piece of the puzzle"
-            class="first"
-          />
-        </div>
-      </div>
+<!--    <div class="empty" id="sixth">-->
+<!--        <div class="puzzle" draggable="true">-->
+<!--            <img-->
+<!--                    src="./puzzles/02.png"-->
+<!--                    width="341"-->
+<!--                    height="80"-->
+<!--                    alt="Piece of the puzzle"-->
+<!--                    class="sixth"-->
+<!--            />-->
+<!--        </div>-->
+<!--    </div>-->
 
-      <div class="empty"><div class="puzzle" draggable="true"></div></div>
+<!--    <div class="empty" id="seventh">-->
+<!--        <div class="puzzle" draggable="true">-->
+<!--            <img-->
+<!--                    src="./puzzles/12.png"-->
+<!--                    width="341"-->
+<!--                    height="80"-->
+<!--                    alt="Piece of the puzzle"-->
+<!--                    class="seventh"-->
+<!--            />-->
+<!--        </div>-->
+<!--    </div>-->
 
-      <div class="empty">
+<!--    <div class="empty" id="eighth">-->
+<!--        <div class="puzzle" draggable="true">-->
+<!--            <img-->
+<!--                    src="./puzzles/00.png"-->
+<!--                    width="341"-->
+<!--                    height="80"-->
+<!--                    alt="Piece of the puzzle"-->
+<!--                    class="eighth"-->
+<!--            />-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="empty" id="ninth">-->
+<!--        <div class="puzzle" draggable="true">-->
+<!--            <img-->
+<!--                    src="./puzzles/10.png"-->
+<!--                    width="341"-->
+<!--                    height="80"-->
+<!--                    alt="Piece of the puzzle"-->
+<!--                    class="ninth"-->
+<!--            />-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<div class="container">
+    <div class="empty" id="first">
         <div class="puzzle" draggable="true">
-          <img
-            src="./puzzles/puzzle_fourth.svg"
-            width="144"
-            height="144"
-            alt="Piece of the puzzle"
-            class="fourth"
-          />
+            <img
+                    src="./puzzles/11.png"
+                    width="341"
+                    height="80"
+                    alt="Piece of the puzzle"
+                    class="fifth"
+            />
         </div>
-      </div>
-
-      <div class="empty">
-        <div class="puzzle" draggable="true">
-          <img
-            src="./puzzles/puzzle_sixth.svg"
-            width="80"
-            height="95"
-            alt="Piece of the puzzle"
-            class="sixth"
-          />
-        </div>
-      </div>
-      <div class="empty">
-        <div class="puzzle" draggable="true">
-          <img
-            src="./puzzles/puzzle_seventh.svg"
-            width="144"
-            height="131"
-            alt="Piece of the puzzle"
-            class="seventh"
-          />
-        </div>
-      </div>
     </div>
-    <script src="main.js" async defer></script>
-  </body>
+    <div class="empty" id="second">
+        <div class="puzzle" draggable="true">
+            <img
+                    src="./puzzles/21.png"
+                    width="341"
+                    height="80"
+                    alt="Piece of the puzzle"
+                    class="sixth"
+            />
+        </div>
+    </div>
+    <div class="empty" id="third"></div>
+    <div class="empty" id="fourth">
+        <div class="puzzle" draggable="true">
+            <img
+                    src="./puzzles/01.png"
+                    width="341"
+                    height="80"
+                    alt="Piece of the puzzle"
+                    class="fourth"
+            />
+        </div>
+    </div>
+
+    <div class="empty" id="fifth">
+        <div class="puzzle" draggable="true">
+            <img
+                    src="./puzzles/22.png"
+                    width="341"
+                    height="80"
+                    alt="Piece of the puzzle"
+                    class="ninth"
+            />
+        </div>
+    </div>
+
+    <div class="empty" id="sixth">
+        <div class="puzzle" draggable="true">
+            <img
+                    src="./puzzles/02.png"
+                    width="341"
+                    height="80"
+                    alt="Piece of the puzzle"
+                    class="seventh"
+            />
+        </div>
+    </div>
+
+    <div class="empty" id="seventh">
+        <div class="puzzle" draggable="true">
+            <img
+                    src="./puzzles/12.png"
+                    width="341"
+                    height="80"
+                    alt="Piece of the puzzle"
+                    class="eighth"
+            />
+        </div>
+    </div>
+
+    <div class="empty" id="eighth">
+        <div class="puzzle" draggable="true">
+            <img
+                    src="./puzzles/00.png"
+                    width="341"
+                    height="80"
+                    alt="Piece of the puzzle"
+                    class="first"
+            />
+        </div>
+    </div>
+    <div class="empty" id="ninth">
+        <div class="puzzle" draggable="true">
+            <img
+                    src="./puzzles/10.png"
+                    width="341"
+                    height="80"
+                    alt="Piece of the puzzle"
+                    class="second"
+            />
+        </div>
+    </div>
+</div>
+<script src="main.js" async defer></script>
+</body>
 </html>

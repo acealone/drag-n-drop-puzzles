@@ -6,7 +6,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #fce6e6;
+  background-color: #63d07c;
 }
 
 h1 {
@@ -14,8 +14,8 @@ h1 {
   position: relative;
   font-size: 4rem;
   margin: 1.5rem;
-  color: #f9c0c0;
-  text-shadow: 5px 3px 0px #b3281f;
+  color: #90ffc0;
+  text-shadow: 5px 3px 0px #1fb375;
 }
 
 span {
@@ -31,22 +31,22 @@ span {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 9rem);
+  grid-template-columns: repeat(3, 341px);
   column-gap: 2px;
-  border: 10px solid #fce6e6;
+  border: 10px solid #63d07c;
 }
 
 .empty {
-  width: 9rem;
-  height: 9rem;
-  background-color: #fce6e6;
-  border: solid #fce6e6 1px;
+  width: 341px;
+  height: 80px;
+  background-color: #63d07c;
+  border: solid #63d07c 1px;
 }
 .puzzle {
-  background-color: #ffd3d3;
+  background-color: #63d07c;
   position: relative;
-  width: 9rem;
-  height: 9rem;
+  width: 341px;
+  height: 80px;
   cursor: pointer;
 }
 
@@ -54,27 +54,27 @@ img {
   position: absolute;
 }
 
-.first,
-.fifth,
-.third {
-  bottom: 0;
-}
+/*.first,*/
+/*.fifth,*/
+/*.third {*/
+/*  bottom: 0;*/
+/*}*/
 
-.first {
-  left: 50%;
-  transform: translateX(-50%);
-}
+/*.first {*/
+/*  left: 50%;*/
+/*  transform: translateX(-50%);*/
+/*}*/
 
-.third,
-.sixth {
-  right: 0;
-}
+/*.third,*/
+/*.sixth {*/
+/*  right: 0;*/
+/*}*/
 
-.sixth,
-.seventh,
-.eighth {
-  top: 0;
-}
+/*.sixth,*/
+/*.seventh,*/
+/*.eighth {*/
+/*  top: 0;*/
+/*}*/
 
 .hovered {
   background: #f4f4f4;
